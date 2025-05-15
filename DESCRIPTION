@@ -1,0 +1,27 @@
+Package: AICellType
+Title: Annotation of Single-Cell Transcriptomes Using a Gene AI Large Language Model
+Version: 1.0.0
+Date: 2025-03-20
+Authors@R: c(
+    person(given  = "Cheng",
+           family = "ChuXing",
+           email  = "mooerccx@webmail.hzau.edu.cn",
+           role   = c("aut", "cre")
+           ),
+    person(given  = "Fang",
+           family = "Shuo",
+           email  = "fsaysc@foxmail.com",
+           role   = c("aut", "com")
+           )
+        )
+Description:
+    provide a set of marker gene data along with the source tissue of the samples,
+    and return the corresponding cell types.
+RoxygenNote: 7.3.2
+License: GPL 3.0
+Encoding: UTF-8
+Imports:httr2,
+  jsonlite,
+  dplyr,
+  Seurat
+Suggests: Seurat (>= 3.2)
