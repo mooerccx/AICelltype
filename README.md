@@ -1,5 +1,4 @@
 # AICelltype
-![image](https://github.com/user-attachments/assets/62478570-47b5-4b7c-bb7c-5b1ae96ddad8)
 
 ## **Install**
 
@@ -58,8 +57,15 @@ pbmc.markers %>%
     slice_head(n = 10) %>%
     ungroup() -> top10
 MarkerGenes     <- SeuratMarkerGeneToStr(top10)
-new.cluster.ids <- GetCellType(markergenes=MarkerGenes, tissuename="PBMC")
+celltype        <- GetCellType(markergenes=MarkerGenes, tissuename="PBMC")
+new.cluster.ids <- unname(unlist(celltype$content))
 names(new.cluster.ids) <- levels(pbmc)
 pbmc <- RenameIdents(pbmc, new.cluster.ids)
 ```
+
+
+
+## Notice
+
+Although this function provides a custom model interface, this parameter is only valid when using your own API.
 
