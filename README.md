@@ -44,7 +44,7 @@ pbmc <- FindClusters(pbmc, resolution = 0.5)
 #
 # Example one directly passes a Seurat object.
 # If you have your own API, please fill in the corresponding parameters; leave them blank if not.
-pbmc <- AnnotationCelltype(scRNA=pmbc, tissuename="PBMC")
+pbmc <- AnnotateCelltype(scRNA=pmbc, tissuename="PBMC")
 
 
 #
