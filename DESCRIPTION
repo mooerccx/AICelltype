@@ -20,8 +20,11 @@ Description:
 RoxygenNote: 7.3.2
 License: GPL 3.0
 Encoding: UTF-8
-Imports:httr2,
+Imports: httr2,
   jsonlite,
   dplyr,
   Seurat
-Suggests: Seurat (>= 3.2)
+Suggests: 
+    Seurat (>= 3.2),
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3

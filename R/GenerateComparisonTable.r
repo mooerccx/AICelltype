@@ -1,3 +1,12 @@
+#' Generate cell type mapping table.
+#' @param  CelltypeList  : A deduplicated list of all annotated cell types.
+#' @param  model         : The model name you want to use
+#' @param  api_key       : Key for API interface
+#' @param  base_url      : API interface address
+#' @return               : Cell type mapping table
+#' @export
+#' @name GenerateComparisonTable
+
 GenerateComparisonTable <- function(CelltypeList, model="gpt-4.1-mini", api_key="", base_url=""){
   if(api_key==""){
     api_key=APP_API_KEY

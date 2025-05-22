@@ -1,7 +1,3 @@
-library(httr2)
-library(jsonlite)
-library(dplyr)
-
 #' Enter the markergenes list to obtain the corresponding cell type
 #' @param markergenes: A list of genes in string form, separated by rows, separated by genes within the same cluster
 #' @param model      : The model name you want to use
@@ -10,8 +6,15 @@ library(dplyr)
 #' @param base_url   : API interface address
 #' @return The List of cell types
 #' @export
-url = ""
-GetCellType <- function(markergenes, model, tissuename, api_key="", base_url="",temperature=0.1){
+#' @name GetCellType
+
+
+GetCellType <- function(markergenes, tissuename, model="claude-3-5-sonnet-20240620", api_key="", base_url="",temperature=0.1){
+  APP_BASE_URL = "http://aicelltype.jinlab.online/api"
+  APP_API_KEY  = "sk-wkxLg7K0gGwKlEK2UiNsOQzsXQ5j6UXVa8BbLrIqVMc7T6mL"
+  library(httr2)
+  library(jsonlite)
+  library(dplyr)
   if(api_key==""){
     api_key=APP_API_KEY
   }
@@ -22,6 +25,8 @@ GetCellType <- function(markergenes, model, tissuename, api_key="", base_url="",
   # Build request message
   request_body <- list(
     model = model,
+    markergenes=markergenes,
+    tissue=tissuename,
     messages = list(
       list(
         role    = "system",
@@ -60,9 +65,7 @@ GetCellType <- function(markergenes, model, tissuename, api_key="", base_url="",
       req_perform()
   },error = function(e){
     print(paste("httr2 API call error:", e$message, "\n"))
-    cat(paste("httr2 API call error:", e$message, "\n"), file=log.file, append=TRUE)
     return('')
-
   })
   # Analyze response
   response_content <- response %>%
@@ -70,7 +73,7 @@ GetCellType <- function(markergenes, model, tissuename, api_key="", base_url="",
   print(response_content)
   message_content <- c()
   cat(format(Sys.time(),  "%Y-%m-%d %H:%M:%S"))
-  cat(paste(paste0("模型：",model), paste0("marker基因：", markergenes), paste0("返回信息：", response_content$choices[[1]]$message$content),sep="\n") )
+  cat(paste(paste0("model：",model), paste0("marker genes：", markergenes), paste0("Return information：", response_content$choices[[1]]$message$content),sep="\n") )
   tryCatch({
      tmp <- response_content$choices[[1]]$message$content
      tmp <- gsub('```'         , '', tmp)
