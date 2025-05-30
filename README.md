@@ -1,6 +1,6 @@
 # AICelltype
 
-## **Install**
+## **How to Install**
 
 ```R
 library(devtools)
