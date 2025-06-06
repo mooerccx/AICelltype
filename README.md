@@ -1,9 +1,32 @@
-# AICelltype
-![image](https://github.com/user-attachments/assets/50b68795-1fd8-400f-813f-68e0018d7698)
+# AICelltype: An Open, Efficient, and Customizable Tool for Cell Type Annotation Powered by LLMs
+
+<div align="center">
+  <img width="1241" alt="abs" src="https://github.com/user-attachments/assets/d03bf059-cb1f-437e-8eef-f36b31c5869f" />
+
+
+</div>
 
 (A) Cell type identification leveraging large language models based on marker gene information.
 (B) Evaluation of annotation accuracy and robustness across different language models, temperature settings, and noise conditions; an optimized model was selected using a cell-type matching scoring system.
 (C) Integration of AIcelltype with standard Seurat analysis pipelines, enabling users to perform online cell type annotation and visualization through an open platform and OpenRouter interface. The platform supports flexible applications across multiple species and tissue types.
+
+AICelltype is an open, intelligent, and efficient cell type annotation framework powered by Large Language Models (LLMs). With the explosive growth of single-cell RNA sequencing (scRNA-seq) data, accurate and scalable cell type annotation has become a pressing challenge. Existing tools often suffer from limited generalization, heavy reliance on human expertise, high computational costs, and a lack of flexibility across tissues and species.
+
+To address this, we systematically evaluated 79 state-of-the-art LLMs under different conditions (temperature, noise, and prompt formats), and developed an optimized annotation framework that:
+
+🔍 Utilizes marker gene information for accurate and interpretable annotation.
+
+🧠 Leverages both open-source and commercial LLMs, avoiding black-box APIs if needed.
+
+🔁 Supports Seurat-native workflows for easy integration into existing pipelines.
+
+🌐 Enables cross-species and multi-tissue annotation with customizable prompts and scoring logic.
+
+💸 Provides a cost-effective and fully open platform through OpenRouter and GitHub distribution.
+
+Whether you're working with human PBMC, mouse brain, or other complex tissue types, AICelltype offers a robust, extensible solution to empower your single-cell analysis with AI-enhanced annotation.
+
+
 
 # Benchmark of accuracy for cell type annotation in large language models
 ![image](https://github.com/user-attachments/assets/0263b835-8f05-43ac-af39-56c967fe3158)
