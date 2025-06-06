@@ -1,4 +1,14 @@
 # AICelltype
+![image](https://github.com/user-attachments/assets/50b68795-1fd8-400f-813f-68e0018d7698)
+(A) Cell type identification leveraging large language models based on marker gene information.
+(B) Evaluation of annotation accuracy and robustness across different language models, temperature settings, and noise conditions; an optimized model was selected using a cell-type matching scoring system.
+(C) Integration of AIcelltype with standard Seurat analysis pipelines, enabling users to perform online cell type annotation and visualization through an open platform and OpenRouter interface. The platform supports flexible applications across multiple species and tissue types.
+
+# Benchmark of accuracy for cell type annotation in large language models
+![image](https://github.com/user-attachments/assets/0263b835-8f05-43ac-af39-56c967fe3158)
+
+# The relationship between price, speed, and accuracy
+
 
 ## **How to Install**
 
