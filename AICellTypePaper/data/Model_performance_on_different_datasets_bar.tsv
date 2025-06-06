@@ -1,0 +1,214 @@
+"index"	"Agreement"	"score"	"model"	"total"
+71	"Mismatch"	0	"manual"	1
+71	"Partially match"	0	"manual"	1
+71	"Fully match"	1130	"manual"	1
+70	"Mismatch"	218	"Claude 3.5 Sonnet (06/20)"	0.807079646017699
+70	"Partially match"	116	"Claude 3.5 Sonnet (06/20)"	0.807079646017699
+70	"Fully match"	796	"Claude 3.5 Sonnet (06/20)"	0.807079646017699
+69	"Mismatch"	223	"o4.mini"	0.802654867256637
+69	"Partially match"	107	"o4.mini"	0.802654867256637
+69	"Fully match"	800	"o4.mini"	0.802654867256637
+68	"Mismatch"	235	"gemini-2.5-flash-p 04.17 nothink"	0.792035398230089
+68	"Partially match"	121	"gemini-2.5-flash-p 04.17 nothink"	0.792035398230089
+68	"Fully match"	774	"gemini-2.5-flash-p 04.17 nothink"	0.792035398230089
+67	"Mismatch"	236	"o3.mini"	0.791150442477876
+67	"Partially match"	112	"o3.mini"	0.791150442477876
+67	"Fully match"	782	"o3.mini"	0.791150442477876
+66	"Mismatch"	236	"GPT-4.1"	0.791150442477876
+66	"Partially match"	104	"GPT-4.1"	0.791150442477876
+66	"Fully match"	790	"GPT-4.1"	0.791150442477876
+65	"Mismatch"	245	"gemini-2.5-flash-p 04.17"	0.783185840707965
+65	"Partially match"	132	"gemini-2.5-flash-p 04.17"	0.783185840707965
+65	"Fully match"	753	"gemini-2.5-flash-p 04.17"	0.783185840707965
+64	"Mismatch"	257	"grok.3.mini.fast.beta"	0.772566371681416
+64	"Partially match"	115	"grok.3.mini.fast.beta"	0.772566371681416
+64	"Fully match"	758	"grok.3.mini.fast.beta"	0.772566371681416
+63	"Mismatch"	257	"GPT-4o (11/20)"	0.772566371681416
+63	"Partially match"	112	"GPT-4o (11/20)"	0.772566371681416
+63	"Fully match"	761	"GPT-4o (11/20)"	0.772566371681416
+62	"Mismatch"	258	"grok.3.mini.beta"	0.771681415929204
+62	"Partially match"	110	"grok.3.mini.beta"	0.771681415929204
+62	"Fully match"	762	"grok.3.mini.beta"	0.771681415929204
+61	"Mismatch"	261	"grok.3.beta"	0.769026548672566
+61	"Partially match"	130	"grok.3.beta"	0.769026548672566
+61	"Fully match"	739	"grok.3.beta"	0.769026548672566
+60	"Mismatch"	265	"GPT-4"	0.765486725663717
+60	"Partially match"	153	"GPT-4"	0.765486725663717
+60	"Fully match"	712	"GPT-4"	0.765486725663717
+59	"Mismatch"	267	"GPT-4 0613"	0.763716814159292
+59	"Partially match"	162	"GPT-4 0613"	0.763716814159292
+59	"Fully match"	701	"GPT-4 0613"	0.763716814159292
+58	"Mismatch"	271	"Gemini 2.0 Flash Thinking"	0.760176991150442
+58	"Partially match"	145	"Gemini 2.0 Flash Thinking"	0.760176991150442
+58	"Fully match"	714	"Gemini 2.0 Flash Thinking"	0.760176991150442
+57	"Mismatch"	280	"GPT-4o"	0.752212389380531
+57	"Partially match"	102	"GPT-4o"	0.752212389380531
+57	"Fully match"	748	"GPT-4o"	0.752212389380531
+56	"Mismatch"	287	"GPT-4.1 Mini"	0.746017699115044
+56	"Partially match"	116	"GPT-4.1 Mini"	0.746017699115044
+56	"Fully match"	727	"GPT-4.1 Mini"	0.746017699115044
+55	"Mismatch"	293	"Qwen Max 0125"	0.74070796460177
+55	"Partially match"	139	"Qwen Max 0125"	0.74070796460177
+55	"Fully match"	698	"Qwen Max 0125"	0.74070796460177
+54	"Mismatch"	299	"Llama 4 Maverick 17B 128E FP8"	0.735398230088496
+54	"Partially match"	118	"Llama 4 Maverick 17B 128E FP8"	0.735398230088496
+54	"Fully match"	713	"Llama 4 Maverick 17B 128E FP8"	0.735398230088496
+53	"Mismatch"	321	"gemini.2.5.pro.exp.03.25"	0.715929203539823
+53	"Partially match"	101	"gemini.2.5.pro.exp.03.25"	0.715929203539823
+53	"Fully match"	708	"gemini.2.5.pro.exp.03.25"	0.715929203539823
+52	"Mismatch"	324	"Doubao 1.5 Pro 32K"	0.713274336283186
+52	"Partially match"	119	"Doubao 1.5 Pro 32K"	0.713274336283186
+52	"Fully match"	687	"Doubao 1.5 Pro 32K"	0.713274336283186
+51	"Mismatch"	329	"Claude 3 Haiku"	0.708849557522124
+51	"Partially match"	145	"Claude 3 Haiku"	0.708849557522124
+51	"Fully match"	656	"Claude 3 Haiku"	0.708849557522124
+50	"Mismatch"	332	"claude.3.7.sonnet.20250219"	0.706194690265487
+50	"Partially match"	128	"claude.3.7.sonnet.20250219"	0.706194690265487
+50	"Fully match"	670	"claude.3.7.sonnet.20250219"	0.706194690265487
+49	"Mismatch"	333	"GPT-4 1106 Preview"	0.705309734513274
+49	"Partially match"	119	"GPT-4 1106 Preview"	0.705309734513274
+49	"Fully match"	678	"GPT-4 1106 Preview"	0.705309734513274
+48	"Mismatch"	344	"Llama 4 Scout 17B 16E"	0.695575221238938
+48	"Partially match"	154	"Llama 4 Scout 17B 16E"	0.695575221238938
+48	"Fully match"	632	"Llama 4 Scout 17B 16E"	0.695575221238938
+47	"Mismatch"	360	"DeepSeek R1"	0.68141592920354
+47	"Partially match"	110	"DeepSeek R1"	0.68141592920354
+47	"Fully match"	660	"DeepSeek R1"	0.68141592920354
+46	"Mismatch"	360	"DeepSeek V3"	0.68141592920354
+46	"Partially match"	137	"DeepSeek V3"	0.68141592920354
+46	"Fully match"	633	"DeepSeek V3"	0.68141592920354
+45	"Mismatch"	365	"GPT-4 0125 Preview"	0.676991150442478
+45	"Partially match"	117	"GPT-4 0125 Preview"	0.676991150442478
+45	"Fully match"	648	"GPT-4 0125 Preview"	0.676991150442478
+44	"Mismatch"	372	"GPT-4 Turbo"	0.670796460176991
+44	"Partially match"	108	"GPT-4 Turbo"	0.670796460176991
+44	"Fully match"	650	"GPT-4 Turbo"	0.670796460176991
+43	"Mismatch"	374	"DeepSeek R1 Distill Qwen 32B"	0.669026548672566
+43	"Partially match"	168	"DeepSeek R1 Distill Qwen 32B"	0.669026548672566
+43	"Fully match"	588	"DeepSeek R1 Distill Qwen 32B"	0.669026548672566
+42	"Mismatch"	377	"Llama 3.1 405B"	0.666371681415929
+42	"Partially match"	151	"Llama 3.1 405B"	0.666371681415929
+42	"Fully match"	602	"Llama 3.1 405B"	0.666371681415929
+41	"Mismatch"	377	"Qwen 2.5 72B"	0.666371681415929
+41	"Partially match"	136	"Qwen 2.5 72B"	0.666371681415929
+41	"Fully match"	617	"Qwen 2.5 72B"	0.666371681415929
+40	"Mismatch"	386	"DeepSeek R1 Distill Llama 70B"	0.658407079646018
+40	"Partially match"	131	"DeepSeek R1 Distill Llama 70B"	0.658407079646018
+40	"Fully match"	613	"DeepSeek R1 Distill Llama 70B"	0.658407079646018
+39	"Mismatch"	397	"Gemini 2.0 Flash Lite"	0.648672566371681
+39	"Partially match"	126	"Gemini 2.0 Flash Lite"	0.648672566371681
+39	"Fully match"	607	"Gemini 2.0 Flash Lite"	0.648672566371681
+38	"Mismatch"	404	"Mistral Large"	0.642477876106195
+38	"Partially match"	108	"Mistral Large"	0.642477876106195
+38	"Fully match"	618	"Mistral Large"	0.642477876106195
+37	"Mismatch"	436	"Doubao 1.5 Pro 256K"	0.614159292035398
+37	"Partially match"	88	"Doubao 1.5 Pro 256K"	0.614159292035398
+37	"Fully match"	606	"Doubao 1.5 Pro 256K"	0.614159292035398
+36	"Mismatch"	451	"Doubao Pro 256K"	0.600884955752212
+36	"Partially match"	107	"Doubao Pro 256K"	0.600884955752212
+36	"Fully match"	572	"Doubao Pro 256K"	0.600884955752212
+35	"Mismatch"	475	"GPT-3.5 Turbo"	0.579646017699115
+35	"Partially match"	134	"GPT-3.5 Turbo"	0.579646017699115
+35	"Fully match"	521	"GPT-3.5 Turbo"	0.579646017699115
+34	"Mismatch"	477	"Llama 3.3 70B"	0.57787610619469
+34	"Partially match"	161	"Llama 3.3 70B"	0.57787610619469
+34	"Fully match"	492	"Llama 3.3 70B"	0.57787610619469
+33	"Mismatch"	481	"Qwen 2.5 32B"	0.574336283185841
+33	"Partially match"	141	"Qwen 2.5 32B"	0.574336283185841
+33	"Fully match"	508	"Qwen 2.5 32B"	0.574336283185841
+32	"Mismatch"	483	"Llama 3.1 70B"	0.572566371681416
+32	"Partially match"	144	"Llama 3.1 70B"	0.572566371681416
+32	"Fully match"	503	"Llama 3.1 70B"	0.572566371681416
+31	"Mismatch"	487	"DeepSeek R1 Distill Qwen 14B"	0.569026548672566
+31	"Partially match"	158	"DeepSeek R1 Distill Qwen 14B"	0.569026548672566
+31	"Fully match"	485	"DeepSeek R1 Distill Qwen 14B"	0.569026548672566
+30	"Mismatch"	489	"GPT-4o Mini"	0.567256637168142
+30	"Partially match"	133	"GPT-4o Mini"	0.567256637168142
+30	"Fully match"	508	"GPT-4o Mini"	0.567256637168142
+29	"Mismatch"	489	"GPT-3.5 Turbo 1106"	0.567256637168142
+29	"Partially match"	145	"GPT-3.5 Turbo 1106"	0.567256637168142
+29	"Fully match"	496	"GPT-3.5 Turbo 1106"	0.567256637168142
+28	"Mismatch"	490	"GPT-3.5 Turbo 0613"	0.566371681415929
+28	"Partially match"	149	"GPT-3.5 Turbo 0613"	0.566371681415929
+28	"Fully match"	491	"GPT-3.5 Turbo 0613"	0.566371681415929
+27	"Mismatch"	493	"Llama 3.2 90B Vision"	0.563716814159292
+27	"Partially match"	140	"Llama 3.2 90B Vision"	0.563716814159292
+27	"Fully match"	497	"Llama 3.2 90B Vision"	0.563716814159292
+26	"Mismatch"	495	"Doubao Pro 32K"	0.561946902654867
+26	"Partially match"	94	"Doubao Pro 32K"	0.561946902654867
+26	"Fully match"	541	"Doubao Pro 32K"	0.561946902654867
+25	"Mismatch"	497	"GPT-3.5 Turbo 0125"	0.560176991150443
+25	"Partially match"	130	"GPT-3.5 Turbo 0125"	0.560176991150443
+25	"Fully match"	503	"GPT-3.5 Turbo 0125"	0.560176991150443
+24	"Mismatch"	500	"Llama 3 70B"	0.557522123893805
+24	"Partially match"	143	"Llama 3 70B"	0.557522123893805
+24	"Fully match"	487	"Llama 3 70B"	0.557522123893805
+23	"Mismatch"	500	"Qwen 2.5 14B"	0.557522123893805
+23	"Partially match"	156	"Qwen 2.5 14B"	0.557522123893805
+23	"Fully match"	474	"Qwen 2.5 14B"	0.557522123893805
+22	"Mismatch"	522	"Doubao Pro 4K"	0.538053097345133
+22	"Partially match"	89	"Doubao Pro 4K"	0.538053097345133
+22	"Fully match"	519	"Doubao Pro 4K"	0.538053097345133
+21	"Mismatch"	557	"Phi-4"	0.507079646017699
+21	"Partially match"	150	"Phi-4"	0.507079646017699
+21	"Fully match"	423	"Phi-4"	0.507079646017699
+20	"Mismatch"	562	"kimi.latest"	0.502654867256637
+20	"Partially match"	126	"kimi.latest"	0.502654867256637
+20	"Fully match"	442	"kimi.latest"	0.502654867256637
+19	"Mismatch"	578	"Doubao 1.5 Lite 32K"	0.488495575221239
+19	"Partially match"	126	"Doubao 1.5 Lite 32K"	0.488495575221239
+19	"Fully match"	426	"Doubao 1.5 Lite 32K"	0.488495575221239
+18	"Mismatch"	601	"Mistral Small-3.1 24B Ins 2503"	0.468141592920354
+18	"Partially match"	84	"Mistral Small-3.1 24B Ins 2503"	0.468141592920354
+18	"Fully match"	445	"Mistral Small-3.1 24B Ins 2503"	0.468141592920354
+17	"Mismatch"	620	"CellMarker2.0"	0.451327433628319
+17	"Partially match"	146	"CellMarker2.0"	0.451327433628319
+17	"Fully match"	364	"CellMarker2.0"	0.451327433628319
+16	"Mismatch"	638	"qwen.qwq.32b"	0.435398230088496
+16	"Partially match"	107	"qwen.qwq.32b"	0.435398230088496
+16	"Fully match"	385	"qwen.qwq.32b"	0.435398230088496
+15	"Mismatch"	642	"Doubao Lite 32K"	0.431858407079646
+15	"Partially match"	145	"Doubao Lite 32K"	0.431858407079646
+15	"Fully match"	343	"Doubao Lite 32K"	0.431858407079646
+14	"Mismatch"	649	"Doubao Lite 128K"	0.425663716814159
+14	"Partially match"	118	"Doubao Lite 128K"	0.425663716814159
+14	"Fully match"	363	"Doubao Lite 128K"	0.425663716814159
+13	"Mismatch"	652	"ScType"	0.423008849557522
+13	"Partially match"	155	"ScType"	0.423008849557522
+13	"Fully match"	323	"ScType"	0.423008849557522
+12	"Mismatch"	656	"SingleR"	0.419469026548673
+12	"Partially match"	184	"SingleR"	0.419469026548673
+12	"Fully match"	290	"SingleR"	0.419469026548673
+11	"Mismatch"	659	"Llama 3.1 8B"	0.416814159292035
+11	"Partially match"	140	"Llama 3.1 8B"	0.416814159292035
+11	"Fully match"	331	"Llama 3.1 8B"	0.416814159292035
+10	"Mismatch"	683	"Qwen 2.5 7B"	0.395575221238938
+10	"Partially match"	133	"Qwen 2.5 7B"	0.395575221238938
+10	"Fully match"	314	"Qwen 2.5 7B"	0.395575221238938
+9	"Mismatch"	695	"Llama 3.2 11B Vision"	0.384955752212389
+9	"Partially match"	128	"Llama 3.2 11B Vision"	0.384955752212389
+9	"Fully match"	307	"Llama 3.2 11B Vision"	0.384955752212389
+8	"Mismatch"	713	"Doubao Lite 4K"	0.369026548672566
+8	"Partially match"	141	"Doubao Lite 4K"	0.369026548672566
+8	"Fully match"	276	"Doubao Lite 4K"	0.369026548672566
+7	"Mismatch"	718	"Llama 3 8B"	0.364601769911504
+7	"Partially match"	124	"Llama 3 8B"	0.364601769911504
+7	"Fully match"	288	"Llama 3 8B"	0.364601769911504
+6	"Mismatch"	815	"GPT-4.1 Nano"	0.278761061946903
+6	"Partially match"	48	"GPT-4.1 Nano"	0.278761061946903
+6	"Fully match"	267	"GPT-4.1 Nano"	0.278761061946903
+5	"Mismatch"	845	"codestral.latest"	0.252212389380531
+5	"Partially match"	70	"codestral.latest"	0.252212389380531
+5	"Fully match"	215	"codestral.latest"	0.252212389380531
+4	"Mismatch"	867	"Qwen 2.5 3B"	0.232743362831858
+4	"Partially match"	90	"Qwen 2.5 3B"	0.232743362831858
+4	"Fully match"	173	"Qwen 2.5 3B"	0.232743362831858
+3	"Mismatch"	897	"Llama 3.2 3B"	0.206194690265487
+3	"Partially match"	89	"Llama 3.2 3B"	0.206194690265487
+3	"Fully match"	144	"Llama 3.2 3B"	0.206194690265487
+2	"Mismatch"	937	"DeepSeek R1 Distill Qwen 7B"	0.170796460176991
+2	"Partially match"	55	"DeepSeek R1 Distill Qwen 7B"	0.170796460176991
+2	"Fully match"	138	"DeepSeek R1 Distill Qwen 7B"	0.170796460176991
+1	"Mismatch"	945	"DeepSeek R1 Distill Llama 8B"	0.163716814159292
+1	"Partially match"	46	"DeepSeek R1 Distill Llama 8B"	0.163716814159292
+1	"Fully match"	139	"DeepSeek R1 Distill Llama 8B"	0.163716814159292
