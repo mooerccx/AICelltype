@@ -10,7 +10,7 @@
 (B) Evaluation of annotation accuracy and robustness across different language models, temperature settings, and noise conditions; an optimized model was selected using a cell-type matching scoring system.
 (C) Integration of AIcelltype with standard Seurat analysis pipelines, enabling users to perform online cell type annotation and visualization through an open platform and OpenRouter interface. The platform supports flexible applications across multiple species and tissue types.
 
-📌 Overview
+## 📌 Overview
 
 AICelltype is an open, intelligent, and efficient cell type annotation framework powered by Large Language Models (LLMs). With the explosive growth of single-cell RNA sequencing (scRNA-seq) data, accurate and scalable cell type annotation has become a pressing challenge. Existing tools often suffer from limited generalization, heavy reliance on human expertise, high computational costs, and a lack of flexibility across tissues and species.
 
@@ -107,7 +107,7 @@ pbmc <- RenameIdents(pbmc, new.cluster.ids)
 ```
 
 ## ⚙️ Advanced Usage
-🔄 Use Custom LLMs
+### 🔄 Use Custom LLMs
 
 By default, Claude 3.5 Sonnet (0624) is used for free. To use your own LLM:
 ```R
@@ -115,14 +115,15 @@ pbmc <- AnnotateCelltype(
   scRNA      = pbmc,
   tissuename = "PBMC",
   baseurl    = "https://openrouter.ai/api/v1/chat/completions",
-  model      = "openai/gpt-4"
+  model      = "openai/gpt-4",
+  key        ="your-key"
 )'
 ```
 baseurl: Custom API endpoint (e.g. OpenRouter, Ollama, local LLM server)
 
 model: Any supported LLM model name (e.g. meta-llama/llama-3-70b-instruct)
 
-🧬 Provide Context in tissuename
+### 🧬 Provide Context in tissuename
 
 You can pass additional biological context to the LLM by customizing the tissuename:
 ```R
