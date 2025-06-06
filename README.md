@@ -14,15 +14,19 @@ AICelltype is an open, intelligent, and efficient cell type annotation framework
 
 To address this, we systematically evaluated 79 state-of-the-art LLMs under different conditions (temperature, noise, and prompt formats), and developed an optimized annotation framework that:
 
-🔍 Utilizes marker gene information for accurate and interpretable annotation.
+✅ Free online annotation service: No registration or API keys required.
 
 🧠 Leverages both open-source and commercial LLMs, avoiding black-box APIs if needed.
 
 🔁 Supports Seurat-native workflows for easy integration into existing pipelines.
 
-🌐 Enables cross-species and multi-tissue annotation with customizable prompts and scoring logic.
+🌍 Enables cross-species and multi-tissue annotation with customizable prompts and scoring logic.
+
+🌐 Web access: Try it now at 👉 https://aicelltype.jinlab.online
 
 💸 Provides a cost-effective and fully open platform through OpenRouter and GitHub distribution.
+
+⚙️ Self-hosting with customizable base URLs: Use your own LLM backend (e.g., local server, proxy API) via the baseurl parameter for full control and data privacy.
 
 Whether you're working with human PBMC, mouse brain, or other complex tissue types, AICelltype offers a robust, extensible solution to empower your single-cell analysis with AI-enhanced annotation.
 
