@@ -1,8 +1,11 @@
-### 介绍
+### Introduction
 
-该项目旨在复现文章AICelltype中的分析结果，分析代码封装到统一的脚本`ArticleReproduction.R`中，只需要设计极少的参数即可一条命令实现完整的分析。
+This project is designed to reproduce the results presented in the AICelltype paper.
+All analytical workflows have been packaged into a single streamlined script: ArticleReproduction.R.
 
-#### 依赖的包
+With minimal parameter input, users can execute the entire analysis pipeline in one command—from data preprocessing and clustering to cell type annotation and visualization.
+
+#### Environment Setup and Package Installation
 
 ```R
 if (!require("devtools")) install.packages("devtools")
@@ -29,18 +32,14 @@ library(AICelltype)
 
 
 
-实验数据
-
-- `AICellTypePaper/data/all_data.csv` marker基因列表
-- `AICellTypePaper/data/all_gene.csv` 人类基因列表
-- `AICellTypePaper/data/broadtype_mapping_results.tsv`  细胞名称映射文件
 
 
 
-运行参数
+#### Example
+
 
 ```shell
-Rscript script/ArticleReproduction.R -i data/all_data.csv \
+Rscript script/ArticleReproduction.R -i data/dataset.csv \
 				-o ${PWD}/result/ \
 				-m data/broadtype_mapping_results.tsv \
 				-u Your_Model_api_baseUrl \
