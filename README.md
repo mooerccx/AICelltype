@@ -7,7 +7,7 @@ AICelltype is an open, intelligent, and efficient cell type annotation framework
 
 To address this, we systematically evaluated 79 state-of-the-art LLMs under different conditions (temperature, noise, and prompt formats), and developed an optimized annotation framework that:
 <details>
-<summary>📊How it works ? (click to expand)</summary>
+<summary>📊 <b>How it works ? (click to expand)</b> </summary>
 
 <div align="center">
   <img width="800" alt="abs" src="https://github.com/user-attachments/assets/d03bf059-cb1f-437e-8eef-f36b31c5869f" />
@@ -21,7 +21,7 @@ To address this, we systematically evaluated 79 state-of-the-art LLMs under diff
 </details>
 
 <details>
-  <summary>📊 Benchmark of accuracy for cell type annotation in large language models </summary>
+  <summary>📊 <b>Benchmark of accuracy for cell type annotation in large language models</b> </summary>
 
 ### Benchmark of accuracy for cell type annotation in large language models
 ![image](https://github.com/user-attachments/assets/0263b835-8f05-43ac-af39-56c967fe3158)
@@ -29,6 +29,8 @@ To address this, we systematically evaluated 79 state-of-the-art LLMs under diff
 ### The relationship between price, speed, and accuracy
 ![image](https://github.com/user-attachments/assets/7bcb2a6f-a92e-42d6-8d53-0394eee91fb0)
 </details>
+
+
 
 
 ## 🚀 Key Features
