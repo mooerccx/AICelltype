@@ -26,8 +26,8 @@ if(!require("cowplot", quietly=TRUE)) install.packages("cowplot")
 library(cowplot)
 if(!require("colorspace", quietly=TRUE)) install.packages("colorspace")
 library(colorspace)
-if(!require("AICelltype", quietly=TRUE)) devtools::install_github("mooerccx/AICelltype")
-library(AICelltype)
+if(!require("AICellType", quietly=TRUE)) devtools::install_github("mooerccx/AICelltype")
+library(AICellType)
 ```
 
 
