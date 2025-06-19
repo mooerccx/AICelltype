@@ -72,7 +72,7 @@ tar zvxf pbmc3k_filtered_gene_bc_matrices.tar.gz
 library(dplyr)
 library(Seurat)
 library(patchwork)
-library(AICelltype)
+library(AICellType)
 
 # Load the PBMC dataset
 pbmc.data <- Read10X(data.dir = "/brahms/mollag/practice/filtered_gene_bc_matrices/hg19/")
@@ -115,6 +115,7 @@ celltype        <- GetCellType(markergenes=MarkerGenes, tissuename="PBMC")
 new.cluster.ids <- unname(unlist(celltype$content))
 names(new.cluster.ids) <- levels(pbmc)
 pbmc <- RenameIdents(pbmc, new.cluster.ids)
+pbmc <- RunUMAP
 ```
 
 ## ⚙️ Advanced Usage
