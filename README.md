@@ -43,13 +43,13 @@ To address this, we systematically evaluated 79 state-of-the-art LLMs under diff
 
 🌍 Enables cross-species and multi-tissue annotation with customizable prompts and scoring logic.
 
-🌐 Web access: Try it now at 👉 https://aicelltype.jinlab.online
+🌐 Web access: Try it now at 👉 https://AICellType.jinlab.online
 
 💸 Provides a cost-effective and fully open platform through OpenRouter and GitHub distribution.
 
 ⚙️ Self-hosting with customizable base URLs: Use your own LLM backend (e.g., local server, proxy API) via the baseurl parameter for full control and data privacy.
 
-Whether you're working with human PBMC, mouse brain, or other complex tissue types, AICelltype offers a robust, extensible solution to empower your single-cell analysis with AI-enhanced annotation.
+Whether you're working with human PBMC, mouse brain, or other complex tissue types, AICellType offers a robust, extensible solution to empower your single-cell analysis with AI-enhanced annotation.
 
 
 
@@ -58,7 +58,7 @@ Whether you're working with human PBMC, mouse brain, or other complex tissue typ
 
 ```R
 library(devtools)
-devtools::install_github("mooerccx/AICelltype")
+devtools::install_github("mooerccx/AICellType")
 ```
 
 ## **Example**
