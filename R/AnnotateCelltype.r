@@ -20,15 +20,27 @@ AnnotateCelltype <- function(scRNA, model="claude-3-5-sonnet-20240620", tissuena
     dplyr::filter(avg_log2FC > 1) %>%
     slice_head(n = 10) %>%
     ungroup() -> top10
-  celltyps        <- AICellType::GetCellType(markergenes=SeuratMarkerGeneToStr(top10), model=model, tissuename=tissuename, api_key="", base_url="")
-  new.cluster.ids <- unname(unlist(celltyps$content))
+  celltypes       <- AICellType::GetCellType(markergenes=SeuratMarkerGeneToStr(top10), model=model, tissuename=tissuename, api_key="", base_url="")
+  new.cluster.ids <- sapply(celltypes$content, `[[`, 1)
+  basis           <- sapply(celltypes$content, `[[`, 2)
   if(length(levels(top10$cluster)) == length(new.cluster.ids)){
+    print(data.frame(
+      cluster  = 0:(length(new.cluster.ids)-1),
+      celltype = new.cluster.ids,
+      basis    = basis
+      ))
     names(new.cluster.ids) <- levels(scRNA)
     scRNA <- RenameIdents(scRNA, new.cluster.ids)
   }else{
-     celltyps        <- GetCellType(markergenes=SeuratMarkerGeneToStr(top10), model=model, tissuename=tissuename, api_key="", base_url="")
-     new.cluster.ids <- unname(unlist(celltyps$content))
+     celltypes        <- GetCellType(markergenes=SeuratMarkerGeneToStr(top10), model=model, tissuename=tissuename, api_key="", base_url="")
+     new.cluster.ids <- sapply(celltypes$content, `[[`, 1)
+     basis           <- sapply(celltypes$content, `[[`, 2)
      if(length(levels(top10$cluster)) == length(new.cluster.ids)){
+        print(data.frame(
+        cluster  = 0:(length(new.cluster.ids)-1),
+        celltype = new.cluster.ids,
+        basis    = basis
+        ))
         names(new.cluster.ids) <- levels(scRNA)
         scRNA <- RenameIdents(scRNA, new.cluster.ids)
      }else{

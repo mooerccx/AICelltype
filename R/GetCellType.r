@@ -35,7 +35,7 @@ GetCellType <- function(markergenes, tissuename, model="claude-3-5-sonnet-202406
       "Your task is to identify cell types based on provided marker genes for a specific tissue.",
       "You MUST return the response ONLY as a valid JSON object.",
       "The JSON object should have sequential integers starting from 1 as keys, corresponding to the input marker rows.",
-      "The value for each key MUST be the identified English cell type name ONLY. or 'unknown' if uncertain.",
+      "The value of each key must be in JSON format, containing two elements. The first element is the name of the cell type, and the second element is the annotation basis and information source. If unsure, it is' unknown '",
       "The number of key-value pairs in the JSON MUST exactly match the number of input marker rows provided in the user prompt.",
       "Do NOT include ANY markdown formatting (like ```json ... ```), introductory text, concluding remarks, explanations, apologies, or any other text outside the JSON object itself.",
       sep = " "
@@ -70,10 +70,11 @@ GetCellType <- function(markergenes, tissuename, model="claude-3-5-sonnet-202406
   # Analyze response
   response_content <- response %>%
     resp_body_json()
-  print(response_content)
+  #print(response_content)
   message_content <- c()
   cat(format(Sys.time(),  "%Y-%m-%d %H:%M:%S"))
-  cat(paste(paste0("model：",model), paste0("marker genes：", markergenes), paste0("Return information：", response_content$choices[[1]]$message$content),sep="\n") )
+  cat("\n")
+  #cat(paste(paste0("model：",model), paste0("marker genes：", markergenes), paste0("Return information：", response_content$choices[[1]]$message$content),sep="\n") )
   tryCatch({
      tmp <- response_content$choices[[1]]$message$content
      tmp <- gsub('```'         , '', tmp)
@@ -103,7 +104,7 @@ GetCellType <- function(markergenes, tissuename, model="claude-3-5-sonnet-202406
                                 total_tokens      = response_content$usage$total_tokens
                                 
                               )
-  cat("The parsed information:",  paste(message_content, collapse=", "))
-  cat("\n--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n")
+  #cat("The parsed information:",  paste(message_content, collapse=", "))
+  #cat("\n--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n")
   return(message_content)
 }
