@@ -112,7 +112,7 @@ pbmc.markers %>%
     ungroup() -> top10
 MarkerGenes     <- SeuratMarkerGeneToStr(top10)
 celltype        <- GetCellType(markergenes=MarkerGenes, tissuename="PBMC")
-new.cluster.ids <- unname(unlist(celltype$content))
+new.cluster.ids <- sapply(celltypes$content, `[[`, 1)
 names(new.cluster.ids) <- levels(pbmc)
 pbmc <- RenameIdents(pbmc, new.cluster.ids)
 pbmc <- RunUMAP
